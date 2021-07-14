@@ -20,7 +20,7 @@ public class EmailService {
 	
 	public boolean emailServices( String message,String subject,String to) {
 		boolean f=false;
-		String from="vineetarajput252@gmail.com";
+		String from="xxx@gmail.com";// your Email 
 		// variable 
 				 String host="smtp.gmail.com";
 				// gety the System properties  
@@ -40,7 +40,7 @@ public class EmailService {
 					@Override
 					protected PasswordAuthentication getPasswordAuthentication() {
 						// TODO Auto-generated method stub
-						return new PasswordAuthentication("vineetarajput252@gmail.com", "Vineeta@252");
+						return new PasswordAuthentication("xxx@gmail.com", "your Email password");
 						
 					}
 					 
